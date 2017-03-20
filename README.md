@@ -5,7 +5,7 @@ Prefetch data on hover for better perceived performance.
 
 There are no extra HTML elements added.
 
-```
+```jsx
 <Prefetch
   prefetch={this.prefetch}
   onClickAction={this.onClick}>
