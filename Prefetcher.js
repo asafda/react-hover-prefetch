@@ -9,7 +9,6 @@ const Prefetcher = ({ onClickAction, prefetch, children }) => {
         }
 
         prefetching = true;
-        console.log('fetching...');
 
         prefetch()
             .then((response) => {
