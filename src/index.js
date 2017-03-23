@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Prefetcher = ({ onClickAction, prefetch, children }) => {
     let prefetching = false,
         fetching = false,
