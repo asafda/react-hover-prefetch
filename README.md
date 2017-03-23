@@ -1,4 +1,4 @@
-# react-hover-prefetch
+# react-hover-prefetch &middot; [![npm](https://img.shields.io/npm/v/react-hover-prefetch.svg?style=flat)]()
 Prefetch data on hover for better perceived performance.
 ## Usage Example
 `react-hover-prefetch` exports a single `Prefetch` component that fetches data upon `mousenter`, and invokes the requested action upon click.
