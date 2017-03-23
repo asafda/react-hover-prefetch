@@ -1,6 +1,6 @@
 {
   "name": "react-hover-prefetch",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Prefetch data on hover for better perceived performance",
   "main": "lib/index.js",
   "repository": "https://github.com/asafusan/react-hover-prefetch.git",
@@ -8,11 +8,11 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf lib && babel src --out-dir lib",
-    "prebublish": "npm run build"
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
-    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "rimraf": "^2.6.1"
   },
